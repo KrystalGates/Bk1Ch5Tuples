@@ -22,6 +22,8 @@ if animal_to_find in zoo:
 # print(second_child) # Output is "Hansel"
 ()
 
+(first_animal, second_animal, third_animal, fourth_animal, fifth_animal, sixth_animal, seventh_animal, eigth_animal, ninth_animal, tenth_animal) = zoo
+print(sixth_animal)
 # 5. Create a variable for the first three animals in your zoo tuple, and print them to the console.
 first_three_animals = zoo[slice(3)]
 print(first_three_animals)
